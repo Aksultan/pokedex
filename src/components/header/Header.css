@@ -1,0 +1,9 @@
+.section-header{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pokedex-header{
+    position: relative;
+    background-color: var(--primary);
+}
