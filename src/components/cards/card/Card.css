@@ -1,0 +1,27 @@
+.number{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.name{
+    font-size: 40px;
+    text-align: right;
+    text-transform: capitalize;
+    max-width: 260px;
+    word-break: break-word;
+}
+
+.card img{
+    width: 260px;
+    height: 260px;
+}
+
+.card{
+    padding: 20px;
+    border: unset;
+    border-radius: 12px;
+    background: url("../../../assets/pokeball.svg") bottom right no-repeat;
+    color: #fff;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.25);
+}

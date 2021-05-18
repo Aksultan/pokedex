@@ -1,10 +1,13 @@
 import './Main.css';
-import Header from '../header/Header'
+import Header from '../header/Header';
+import Cards from '../cards/Cards';
 
 function Main() {
   return (
-    <Header isMain={true}/>
-
+    <>
+      <Header isMain={true}/>
+      <Cards />
+    </>
   );
 }
 

@@ -1,5 +1,6 @@
 import './Header.css';
 import Filter from './filter/Filter'
+
 function Header(props) {
   return (
     <header className="pokedex-header">
