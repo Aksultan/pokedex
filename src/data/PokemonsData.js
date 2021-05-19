@@ -13,7 +13,7 @@ let getPokemons = async () => {
         data: {
             query:`
             query PokeAPIquery {
-                pokemon_v2_pokemon(limit: 887) {
+                pokemon_v2_pokemon(limit: 20) {
                   name
                   id
                   base_experience
